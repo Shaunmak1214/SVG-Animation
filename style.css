@@ -1,0 +1,100 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+ 
+    text-align: center;
+
+}
+
+div{
+
+    height: 300px;
+    margin-top: 130px;
+
+}
+
+#secChat{
+
+    animation-delay: 2s;
+    animation: fadeIn ease-in-out 3s infinite;
+    -webkit-animation: fadeIn ease 3s infinite;
+    -moz-animation: fadeIn ease 3s infinite;
+    -o-animation: fadeIn ease 3s infinite;
+    -ms-animation: fadeIn ease 3s infinite;
+
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+
+}
+
+#firstChat {
+    animation: fadeIn ease-in-out 2s infinite;
+    -webkit-animation: fadeIn ease 2s infinite;
+    -moz-animation: fadeIn ease 2s infinite;
+    -o-animation: fadeIn ease 2s infinite;
+    -ms-animation: fadeIn ease 2s infinite;
+
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+
+}
+ @keyframes fadeIn {
+
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+
+}
+    
+@-moz-keyframes fadeIn {
+
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+
+}
+    
+@-webkit-keyframes fadeIn {
+
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+
+}
+    
+@-o-keyframes fadeIn {
+
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+
+}
+    
+@-ms-keyframes fadeIn {
+
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+
+}
