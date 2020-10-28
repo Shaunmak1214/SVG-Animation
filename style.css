@@ -14,8 +14,22 @@ body{
 
 div{
 
-    height: 300px;
-    margin-top: 130px;
+    border-radius: 20px;
+    text-align: center;
+    background-color:#ff7675;
+    justify-content: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 50%;
+
+    box-shadow: 3px 3px 5px 2px #ff7675;
+
+}
+
+svg{
+
+    height: 400px;
+    width: 400px;
 
 }
 
